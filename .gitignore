@@ -1,0 +1,36 @@
+# Virtual environments and local environment settings
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Build and notebook generated state
+dist/
+build/
+.cache/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# The original raw data are stored in PreparedData.zip (included in repo)
+/raw/
+
+# Long-running benchmark cache artefacts (not the deposited results)
+/results/cache_*/
+
+# Keep deposited scientific results, e.g. results/tables, figures and pickle snapshots.
+# Do NOT ignore /results/ or *.csv.

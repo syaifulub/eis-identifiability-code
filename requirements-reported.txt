@@ -1,0 +1,10 @@
+# Versions reported in the source archive for the original benchmark environment.
+# Use with Python 3.13. These exact dependency versions were NOT independently
+# installed/verified during GitHub packaging; follow the source author's records.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.2
+scikit-learn==1.9.1
+jupyter
+pytest
