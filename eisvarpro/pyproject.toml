@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eisvarpro"
+version = "1.0.0"
+description = "Identifiability-aware variable-projection fitting and frequency-band assessment of Cole-type equivalent circuits"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Syaiful Anam"}, {name = "Ahmad Zarkasi"}, {name = "Zahari Md Rodzi"}]
+dependencies = ["numpy>=1.23", "scipy>=1.9"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+eisvarpro = "eisvarpro.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
