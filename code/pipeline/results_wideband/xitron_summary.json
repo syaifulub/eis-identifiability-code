@@ -1,0 +1,190 @@
+{
+ "n_spectra": 36,
+ "n_kk_ok": 26,
+ "tau_ident_full": 1,
+ "truncation": {
+  "n_cases": 286,
+  "closed_form": {
+   "n": 286,
+   "pos": 3,
+   "TP": 1,
+   "TN": 266,
+   "FP": 17,
+   "FN": 2,
+   "sens": 0.3333333333333333,
+   "spec": 0.9399293286219081,
+   "BA": 0.6366313309776207
+  },
+  "f_DL": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "W_lin_asymptote": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "FIM_full_fit": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "three_way": {
+   "decided": 268,
+   "referred": 18,
+   "n": 268,
+   "pos": 2,
+   "TP": 0,
+   "TN": 266,
+   "FP": 0,
+   "FN": 2,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "accuracy_within": {
+   "identified": 3,
+   "accurate": 3,
+   "median_abs_dev": 0.016922282257585408
+  },
+  "accuracy_below": {
+   "identified": 0,
+   "accurate": 0,
+   "median_abs_dev": null
+  }
+ },
+ "design": {
+  "exact": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "m05": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "p05": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "m1": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "p1": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "n_cases": 286
+ },
+ "design_Wlin": {
+  "exact": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "m05": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "p05": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "m1": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  },
+  "p1": {
+   "n": 286,
+   "pos": 3,
+   "TP": 0,
+   "TN": 283,
+   "FP": 0,
+   "FN": 3,
+   "sens": 0.0,
+   "spec": 1.0,
+   "BA": 0.5
+  }
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "options": {
+  "readings": "/tmp/syn_readings.csv",
+  "manifest": "/home/claude/new/code/pipeline/spectra_manifest.csv",
+  "out": "/tmp/syn_full",
+  "B": 200,
+  "psi": "estimated",
+  "kk_threshold": 3.0,
+  "seed": 2024,
+  "quick": false,
+  "jobs": 2,
+  "spectra": ""
+ },
+ "psi": [
+  0.042645083426440765,
+  -0.009060538414326856,
+  -0.05538963077950982,
+  0.01937103385158969,
+  1.095258575671079
+ ],
+ "python": "3.13.18",
+ "numpy": "2.5.3",
+ "pandas": "3.0.5",
+ "seconds": 588.8864593505859
+}

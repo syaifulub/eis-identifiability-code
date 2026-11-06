@@ -1,0 +1,98 @@
+{
+ "idprof_unb|all|id8": {
+  "n": 600,
+  "prev": 0.125,
+  "FP": 92,
+  "FN": 0,
+  "acc": 0.847,
+  "bacc": 0.912
+ },
+ "idprof_unb|all|idlin": {
+  "n": 600,
+  "prev": 0.125,
+  "FP": 6,
+  "FN": 0,
+  "acc": 0.99,
+  "bacc": 0.994
+ },
+ "idprof_unb|r<=0.5|id8": {
+  "n": 444,
+  "prev": 0.0,
+  "FP": 63,
+  "FN": 0,
+  "acc": 0.858,
+  "bacc": 0.429
+ },
+ "idprof_unb|r<=0.5|idlin": {
+  "n": 444,
+  "prev": 0.0,
+  "FP": 6,
+  "FN": 0,
+  "acc": 0.986,
+  "bacc": 0.493
+ },
+ "idprof_unb|r>0.5|id8": {
+  "n": 156,
+  "prev": 0.481,
+  "FP": 29,
+  "FN": 0,
+  "acc": 0.814,
+  "bacc": 0.821
+ },
+ "idprof_unb|r>0.5|idlin": {
+  "n": 156,
+  "prev": 0.481,
+  "FP": 0,
+  "FN": 0,
+  "acc": 1.0,
+  "bacc": 1.0
+ },
+ "idprof|all|id8": {
+  "n": 600,
+  "prev": 0.392,
+  "FP": 0,
+  "FN": 68,
+  "acc": 0.887,
+  "bacc": 0.855
+ },
+ "idprof|all|idlin": {
+  "n": 600,
+  "prev": 0.392,
+  "FP": 0,
+  "FN": 154,
+  "acc": 0.743,
+  "bacc": 0.672
+ },
+ "idprof|r<=0.5|id8": {
+  "n": 444,
+  "prev": 0.207,
+  "FP": 0,
+  "FN": 29,
+  "acc": 0.935,
+  "bacc": 0.842
+ },
+ "idprof|r<=0.5|idlin": {
+  "n": 444,
+  "prev": 0.207,
+  "FP": 0,
+  "FN": 86,
+  "acc": 0.806,
+  "bacc": 0.533
+ },
+ "idprof|r>0.5|id8": {
+  "n": 156,
+  "prev": 0.917,
+  "FP": 0,
+  "FN": 39,
+  "acc": 0.75,
+  "bacc": 0.864
+ },
+ "idprof|r>0.5|idlin": {
+  "n": 156,
+  "prev": 0.917,
+  "FP": 0,
+  "FN": 68,
+  "acc": 0.564,
+  "bacc": 0.762
+ }
+}

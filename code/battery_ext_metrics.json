@@ -1,0 +1,178 @@
+{
+ "all": {
+  "spectra": 160,
+  "full_band_identifiable": 137,
+  "nrmse_median": 0.0538,
+  "closed": {
+   "n": 1120,
+   "identifiable": 590,
+   "FP": 321,
+   "FN": 2,
+   "BA": 0.695
+  },
+  "f_DL": {
+   "n": 1120,
+   "identifiable": 590,
+   "FP": 231,
+   "FN": 26,
+   "BA": 0.76
+  },
+  "three_way": {
+   "n": 986,
+   "identifiable": 564,
+   "FP": 222,
+   "FN": 1,
+   "BA": 0.736,
+   "referred": 134
+  },
+  "identified": 590,
+  "accurate": 309,
+  "within_band": "290/300",
+  "below_band": "19/290",
+  "rule_rejects_inaccurate": "3/281",
+  "rule_keeps_accurate": "295/309"
+ },
+ "25C": {
+  "spectra": 112,
+  "full_band_identifiable": 93,
+  "nrmse_median": 0.0687,
+  "closed": {
+   "n": 784,
+   "identifiable": 385,
+   "FP": 243,
+   "FN": 1,
+   "BA": 0.694
+  },
+  "f_DL": {
+   "n": 784,
+   "identifiable": 385,
+   "FP": 168,
+   "FN": 21,
+   "BA": 0.762
+  },
+  "three_way": {
+   "n": 687,
+   "identifiable": 365,
+   "FP": 167,
+   "FN": 1,
+   "BA": 0.739,
+   "referred": 97
+  },
+  "identified": 385,
+  "accurate": 155,
+  "within_band": "142/152",
+  "below_band": "13/233",
+  "rule_rejects_inaccurate": "3/230",
+  "rule_keeps_accurate": "148/155"
+ },
+ "35C": {
+  "spectra": 24,
+  "full_band_identifiable": 24,
+  "nrmse_median": 0.0198,
+  "closed": {
+   "n": 168,
+   "identifiable": 115,
+   "FP": 29,
+   "FN": 1,
+   "BA": 0.722
+  },
+  "f_DL": {
+   "n": 168,
+   "identifiable": 115,
+   "FP": 24,
+   "FN": 5,
+   "BA": 0.752
+  },
+  "three_way": {
+   "n": 147,
+   "identifiable": 109,
+   "FP": 19,
+   "FN": 0,
+   "BA": 0.75,
+   "referred": 21
+  },
+  "identified": 115,
+  "accurate": 75,
+  "within_band": "70/70",
+  "below_band": "5/45",
+  "rule_rejects_inaccurate": "0/40",
+  "rule_keeps_accurate": "70/75"
+ },
+ "45C": {
+  "spectra": 24,
+  "full_band_identifiable": 20,
+  "nrmse_median": 0.0157,
+  "closed": {
+   "n": 168,
+   "identifiable": 90,
+   "FP": 49,
+   "FN": 0,
+   "BA": 0.686
+  },
+  "f_DL": {
+   "n": 168,
+   "identifiable": 90,
+   "FP": 39,
+   "FN": 0,
+   "BA": 0.75
+  },
+  "three_way": {
+   "n": 152,
+   "identifiable": 90,
+   "FP": 36,
+   "FN": 0,
+   "BA": 0.71,
+   "referred": 16
+  },
+  "identified": 90,
+  "accurate": 79,
+  "within_band": "78/78",
+  "below_band": "1/12",
+  "rule_rejects_inaccurate": "0/11",
+  "rule_keeps_accurate": "77/79"
+ },
+ "good_fit_subset (NRMSE<=3%, tau1 identifiable on full band, ZARC2 not at a bound)": {
+  "spectra": 60,
+  "full_band_identifiable": 60,
+  "nrmse_median": 0.0145,
+  "closed": {
+   "n": 420,
+   "identifiable": 250,
+   "FP": 109,
+   "FN": 1,
+   "BA": 0.677
+  },
+  "f_DL": {
+   "n": 420,
+   "identifiable": 250,
+   "FP": 77,
+   "FN": 8,
+   "BA": 0.758
+  },
+  "three_way": {
+   "n": 371,
+   "identifiable": 241,
+   "FP": 73,
+   "FN": 0,
+   "BA": 0.719,
+   "referred": 49
+  },
+  "identified": 250,
+  "accurate": 162,
+  "within_band": "152/152",
+  "below_band": "10/98",
+  "rule_rejects_inaccurate": "0/88",
+  "rule_keeps_accurate": "155/162"
+ },
+ "nrmse_median_by_state": {
+  "I": 0.0128,
+  "II": 0.0906,
+  "III": 0.0778,
+  "IV": 0.018,
+  "IX": 0.0127,
+  "V": 0.0123,
+  "VI": 0.3026,
+  "VII": 0.1261,
+  "VIII": 0.133
+ }
+}
