@@ -1,0 +1,38 @@
+# Python / build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Jupyter
+.ipynb_checkpoints/
+# Operating-system / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# LaTeX intermediates (retain source .tex)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+# Raw local datasets; avoid committing private/large acquisitions
+EIS data/
+raw_data/
+local_data/
+
+# Keep logs of published runs
+!code/pipeline/**/*.log

@@ -1,0 +1,7 @@
+# Supplemental dependencies for data-analysis scripts.
+# The installable package's core NumPy/SciPy requirements are in eisvarpro/pyproject.toml.
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+pytest>=7
